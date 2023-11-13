@@ -1,0 +1,91 @@
+.card{
+    width: 450px; 
+    margin: 10px;
+    box-sizing: border-box;
+     box-shadow: 1px 2px 4px black;
+
+}
+.img-style{
+    width: 100%;
+}
+.card-body{
+    padding: 5px;
+    background-color:white;
+}
+.card-title{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+}
+.card-body.card-desc{
+    text-align: justify;
+    line-height: 1.5;
+    color: white;
+}
+.card:hover{
+    box-shadow: 6px 12px 10px black;
+}
+.card-containers{
+    box-sizing: border-box;
+    display: flex;
+    background-color:rgb(141, 207, 141);
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-menu{
+ width: 1450px;
+ height: 80px;
+ background-color: rgb(143, 203, 143);
+ margin-left: auto;
+}
+.nav-menu ul{
+
+
+}
+.nav-menu ul li{
+    list-style-type: none;
+    margin: 20px;
+    float: right;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+
+}
+.nav-menu ul li a:hover {
+    text-decoration: underline;
+
+background-color: aliceblue;
+}
+.nav-menu:hover{
+
+ box-shadow: 6px 9px 10px rgb(108, 105, 105);}
+
+
+.btn{
+cursor: pointer;
+color: black;
+}
+.header {
+    text-align: center;
+    color:rgb(15, 36, 36);
+
+}
+.header h2{
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    text-align: center;
+    color: rgb(16, 42, 42);
+}
+.footer h1{
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
